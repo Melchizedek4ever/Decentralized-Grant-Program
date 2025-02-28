@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.core]
+path = 'contracts/core.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.extension-trait]
 path = 'contracts/extension-trait.clar'
 clarity_version = 3
