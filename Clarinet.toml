@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.bootstrap]
+path = 'contracts/bootstrap.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.core]
 path = 'contracts/core.clar'
 clarity_version = 3
@@ -15,8 +20,33 @@ path = 'contracts/extension-trait.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.governance-token-trait]
+path = 'contracts/governance-token-trait.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.membership-token]
+path = 'contracts/membership-token.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.proposal-submission]
+path = 'contracts/proposal-submission.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.proposal-trait]
 path = 'contracts/proposal-trait.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.proposal-voting]
+path = 'contracts/proposal-voting.clar'
+clarity_version = 3
+epoch = 3.0
+
+[contracts.proposal1]
+path = 'contracts/proposal1.clar'
 clarity_version = 3
 epoch = 3.0
 [repl.analysis]
